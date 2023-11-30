@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 400%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+#logo{
+    height: 100px;
+    width: 150px;
+    margin-left: 100px;
+}
+#mentor{
+    margin-left: 700px;
+    margin-top: 35px;
+}
+#hello{
+    margin-top:25px ;
+    margin-left: 12px;
+    border-color: blue;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#maindiv{
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+}
+#line-1{
+    color: blueviolet;
+    margin-left: 220px;
+    margin-top: 100px;
+    font-size: 50px;
+}
+#line-2{
+    margin-top: 20px;
+    margin-left: 280px;
+    font-size: 25px;
+}
+#circular-logo{
+    width: 100%;
+    height: 240px;
+}
+#people{
+    width: 250px;
+    height: 240px;
+    margin-left: 500px;
+}
+#details{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(144, 0, 255);
+    margin-top: 30px;
+}
+#details h1{
+    position: absolute;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    margin-top: 110px;
+    margin-left: 330px;
+}
+#para{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 270px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#insta{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#works{
+    display: flex;
+    width: 90%;
+    height: 400px;
+    margin-left: 65px;
+    margin-top: 10px;
+    border: 10px solid rgb(144, 0, 255);
+    border-radius: 20px;
+}
+#works-left{
+    width: 33%;
+    height: 100%;
+}
+#works-middle{
+    width: 34%;
+    height: 100%;
+    background-color:rgb(204, 138, 255);
+}
+#works-right{
+    width: 33%;
+    height: 100%;
+}
+.box-head{
+font-size: 30px;
+margin-bottom: 30px;
+text-align: center;
+color: rgb(33, 18, 18);
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.box-para{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+#contact-me{
+    height: 500px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 64px;
+    padding: 30px;
+    background-image: url(https://www.anadventurousworld.com/wp-content/uploads/2022/04/amsterdam-in-summer-1024x682.jpg.webp);
+    background-size: cover;
+}
+#contact{
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin-left: 37%;
+    background-color: rgb(144, 0, 255);
+}
+#con-tact{
+    color: rgb(244, 239, 239);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
+}
+.list{
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 10px;
+}
+#area{
+    border: none;
+    font-size: 13px;
+}
+#butt{
+    margin-top: 10px;
+    width: 80px;
+    height: 20px;
+    border: none;
+    border-radius: 2px;
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: 800;
+}
+#foot{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(220, 205, 223);
+}
+#foot-top{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(40, 40, 138);
+}
+#foot-t-left{
+    height: 100%;
+    width: 50%;
+}
+#foot-t-right{
+    height: 100%;
+    width: 50%;
+}
+#connected{
+    color: white;
+    font-size: 20px;
+}
+.insta-foot{
+    height: 20px;
+    width: 20px;
+    margin-top: 4px;
+    align-items: end;
+    margin-left: 70px;
+}
+#foot-mid{
+    display: flex;
+    width: 100%;
+    height: 230px;
+    background-color:rgb(49, 49, 33);
+}
+#f-m-left{
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#f-m-left h3{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#f-m-left p{
+    margin-bottom: 5px;
+}
+#f-m-middle{
+    background-color: rgb(49, 49, 33);
+    width: 40%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+#f-m-middle h3{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#f-m-middle p{
+    
+    margin-bottom: 5px;
+}
+#f-m-right{
+    text-align: center;
+    color: white;
+    width: 30%;
+    height: 100%;
+}
+#f-m-right h3{
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+#f-m-right p{
+    margin-bottom: 5px;
+}
+#last-div{
+    text-align: center;
+}
+#last-div p{
+    margin-top: 5px;
+    font-weight: 800;
+    font-size: 20px;
+}

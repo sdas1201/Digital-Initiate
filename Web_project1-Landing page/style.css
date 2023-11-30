@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 400%;
+    width: 100%;
+    background-color: rgb(58, 55, 50);
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(3, 3, 19);
+}
+#nav-left{
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+#nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.campic{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+#nav-left h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#nav-right h3{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color: white;
+}
+#nav-right button{
+    background-color: crimson;
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    color: wheat;
+    font-weight: bold;
+}
+#main-content{
+    display: flex;
+    height: 500px;
+    width: 90%;
+    margin-left: 62px;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+}
+#content-left{
+    width: 50%;
+    height: 100%;
+}
+#content-left h1{
+    font-size: 53px;
+    margin-left: 62px;
+    margin-top: 100px;
+    color: white;
+}
+#content-left h4{
+    word-spacing: 8px;
+    font-weight:400;
+    font-size: 20px;
+    margin-left: 62px;
+    margin-top: 50px;
+    color: rgb(217, 199, 199);
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#content-left button{
+    margin-top: 50px;
+    margin-left: 70px;
+    height: 30px;
+    width: 100px;
+    background-color:crimson;
+    font-weight: bold;
+    color: white;
+}
+#content-left p{
+    color: white;
+    margin-left: 190px;
+    margin-top: -24px;
+}
+#macpic{
+    margin-top: -42px;
+    margin-left: 400px;
+}
+#content-right{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(49, 46, 43);
+}
+#blackcam{
+    height: 100%;
+    width: 100%;
+}
+#content-right p{
+    color:white;
+    font-weight: 800;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 235px;
+}
+
+#features{
+    border: 1px solid white;
+    height: 520px;
+    width: 90%;
+    margin-left: 62px;
+    margin-top: 5px;
+    background-color:rgb(1, 1, 20);
+}
+#f-heading{
+    text-align: center;
+     height: 60px;
+     width: 100%;
+}
+#f-heading h1{
+    font-size:35px;
+    color: white;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#f-content{
+    display: flex;
+    width: 100%;
+    height:442px;
+    margin-top: 10px;
+}
+#f-left{
+    height: 100%;
+    width: 50%;
+}
+#f-right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#bluecam{
+    margin-top: 25px;
+    height: 360px;
+    width: 400px;
+    margin-left: 59px;
+    border: 1px solid rgb(85, 78, 78);
+    border-radius: 20px;
+}
+#f-left button{
+    position: absolute;
+    height: 55px;
+    width: 401px;
+    border-radius: 0px 0px 20px 20px;
+    font-size: 25px;
+    background-color: orangered;
+    margin-top: 330px;
+    margin-left: -400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+#f-r-1strow{
+    width: 100%;
+    height: 25%;
+}
+#f-r-2strow{
+    width: 100%;
+    height: 25%;
+}
+#f-r-3strow{
+    width: 100%;
+    height: 25%;
+}
+#f-r-4strow{
+    width: 100%;
+    height: 25%;
+}
+.write-h{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:crimson;
+}
+.write-para{
+    font-weight: 500;
+    margin-top: 9px;
+    margin-left: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    word-spacing: 3px;
+}
+#instapic{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -60px;
+}
+#uses{
+    height: 500px;
+    width: 90%;
+    margin-left: 62px;
+    margin-top: 10px;
+    background-color: rgb(37, 35, 35);
+}
+#uses-heading{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+#uses-heading h1{
+    margin-top: 10px;
+    color: rgb(255, 247, 233);
+    font-size: 40px;
+}
+#uses-heading h2{
+    word-spacing: 8px;
+    font-size: 23px;
+    margin-top: 5px;
+    color: rgb(206, 206, 35);
+}
+#uses-content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(22, 19, 19);
+}
+#uses-left{
+    margin-right: 40px;
+    width: 50%;
+    height:100%;
+}
+#left-top{
+    width: 100%;
+    height: 33%;
+}
+#left-middle{
+    width: 100%;
+    height: 33%;
+}
+#left-bottom{
+    width: 100%;
+    height: 33%;
+}
+.use-head{
+    color: azure;
+    text-align-last: right;
+}
+.use-content{
+    color:rgb(178, 53, 78);
+    text-align: end;
+    font-size: 17px;
+}
+.emo{
+    text-align: end;
+}
+#uses-right{
+    width: 50%;
+    height:100%;
+}
+#right-top{
+    width: 100%;
+    height: 33%;
+}
+#right-middle{
+    width: 100%;
+    height: 33%;
+}
+#right-bottom{
+    width: 100%;
+    height: 33%;
+}
+.use-h{
+    color: azure;
+    text-align: start;
+}
+.use-cont{
+    font-size: 17px;
+    color:rgb(178, 53, 78);
+    text-align: start;
+}
+.emo-r{
+    text-align: start;
+}
+#contact-page{
+    height: 500px;
+    width: 90%;
+    margin-left: 62px;
+    margin-top: 120px;
+    background-image: url(https://media.istockphoto.com/id/585800024/photo/beautiful-multicolored-sunrise-over-an-alpine-lake-bled-in-slovenia.jpg?s=612x612&w=0&k=20&c=KpMnII1YjXX29wFOKMWYve5bJXBJw-dnfLIVzFe1HkQ=);
+}
+#container{
+    height: 500px;
+    width: 400px;
+    border: 1px solid rgb(244, 243, 243);
+    margin-left: 360px;
+    background-color: beige;
+    align-items: center;
+
+}
+#contact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 110px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+#name{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#email{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#phone{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#butt{
+    margin-left: 144px;
+    width: 100px;
+    height: 30px;
+    background-color: crimson;
+    color: white;
+    border-radius: 10px;
+}
+#con-pic{
+    height: 100px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 46px;
+}
